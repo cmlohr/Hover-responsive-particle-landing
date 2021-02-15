@@ -1,3 +1,5 @@
+import THREE from three 
+
 const preload = () => {
     let manager = new THREE.LoadingManager();
     manager.onLoad = function () {
